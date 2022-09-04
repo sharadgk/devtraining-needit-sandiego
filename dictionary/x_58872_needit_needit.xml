@@ -34,6 +34,14 @@
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assigned to" max_length="40" name="u_assigned_to_1" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Beth Anglin" sequence="0" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Opened" max_length="40" name="u_opened_3" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
